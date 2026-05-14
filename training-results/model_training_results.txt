@@ -1,0 +1,36 @@
+RANKING WYNIKÓW TRENINGU MODELI
+======================================================================
+            Dataset               Model  CV_Accuracy  CV_F1_Score
+           MICE_Std Logistic Regression     0.801014     0.589149
+            KNN_Std Logistic Regression     0.800203     0.587840
+        MICE_MinMax Logistic Regression     0.801014     0.587169
+         KNN_MinMax Logistic Regression     0.799189     0.586746
+Statystyczna_MinMax Logistic Regression     0.798986     0.584748
+   Statystyczna_Std Logistic Regression     0.797566     0.580450
+           MICE_Std                 SVM     0.798377     0.562974
+            KNN_Std                 SVM     0.796552     0.556099
+         KNN_MinMax                 SVM     0.795538     0.554690
+           MICE_Std       Random Forest     0.790872     0.547847
+        MICE_MinMax                 SVM     0.793103     0.547585
+   Statystyczna_Std                 SVM     0.792495     0.546227
+      Losowa_MinMax Logistic Regression     0.788641     0.545875
+         KNN_MinMax       Random Forest     0.789249     0.545675
+        MICE_MinMax       Random Forest     0.790264     0.545529
+         Losowa_Std Logistic Regression     0.788032     0.545183
+            KNN_Std       Random Forest     0.787424     0.542789
+Statystyczna_MinMax                 SVM     0.788438     0.541712
+Statystyczna_MinMax       Random Forest     0.783570     0.537231
+   Statystyczna_Std       Random Forest     0.782961     0.535378
+           MICE_Std      KNN Classifier     0.753550     0.523672
+        MICE_MinMax      KNN Classifier     0.753955     0.522610
+      Losowa_MinMax       Random Forest     0.782353     0.522041
+         KNN_MinMax      KNN Classifier     0.753955     0.521902
+         Losowa_Std       Random Forest     0.782150     0.521888
+         Losowa_Std                 SVM     0.787627     0.521442
+            KNN_Std      KNN Classifier     0.752941     0.520867
+   Statystyczna_Std      KNN Classifier     0.745842     0.511551
+      Losowa_MinMax                 SVM     0.785801     0.510198
+Statystyczna_MinMax      KNN Classifier     0.745436     0.505278
+         Losowa_Std      KNN Classifier     0.745436     0.488034
+      Losowa_MinMax      KNN Classifier     0.740568     0.481718
+======================================================================
