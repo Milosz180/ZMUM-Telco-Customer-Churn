@@ -1,0 +1,16 @@
+PODSUMOWANIE WYNIKÓW OPTYMALIZACJI MODELU CHURN
+-------------------------------------------------
+Accuracy po optymalizacji: 0.741582
+F1-Score po optymalizacji: 0.622073
+
+PORÓWNANIE DO WYNIKU BAZOWEGO (MICE_Std):
+Zmiana Accuracy: -0.059432
+Zmiana F1-Score: +0.032924
+
+NAJLEPSZE PARAMETRY:
+- C: 0.3
+- class_weight: balanced
+- fit_intercept: True
+- penalty: l2
+- tol: 1e-05
+-------------------------------------------------

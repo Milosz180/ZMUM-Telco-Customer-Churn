@@ -1,0 +1,25 @@
+=== OSTATECZNA EWALUACJA MODELU (ZBIÓR TESTOWY 30%) ===
+--------------------------------------------------
+Data testu: 2026-05-14
+Najlepszy wariant: MICE + Standaryzacja
+
+METRYKI KOŃCOWE:
+Accuracy: 0.742546
+F1-Score: 0.624309
+
+MACIERZ POMYŁEK (TEST):
+True Negative (TN): 1117
+False Positive (FP): 435
+False Negative (FN): 109
+True Positive (TP): 452
+
+SZCZEGÓŁOWY RAPORT KLASYFIKACJI:
+              precision    recall  f1-score   support
+
+           0       0.91      0.72      0.80      1552
+           1       0.51      0.81      0.62       561
+
+    accuracy                           0.74      2113
+   macro avg       0.71      0.76      0.71      2113
+weighted avg       0.80      0.74      0.76      2113
+--------------------------------------------------
